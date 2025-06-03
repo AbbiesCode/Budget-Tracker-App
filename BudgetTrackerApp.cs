@@ -1,4 +1,4 @@
-﻿// In some areas unnecessary code has been added to showcase my learning progression in C#. 
+// This application asks the user to input their monthly income, budgets and expenses to calculate whether their budgets are feasible.
 
 // 1. User inputs total monthly income
 Console.WriteLine("Please input your total monthly income:");
@@ -185,20 +185,4 @@ else
 {
     Console.WriteLine("Water: You are very under budget!");
 }
-
-//Combine fixed expenses into a list (to edit)
-// List<double> fixedExpenses = new List<double> { 250.00, 75.00, 40.00 };
-// Console.WriteLine("Fixed expenses: ");
-// Console.WriteLine("Rent = £" + fixedExpenses[0]);
-// Console.WriteLine("Electricity = £" + fixedExpenses[1]);
-// Console.WriteLine("Water = £" + fixedExpenses[2]);
-
-//Add expenses to list
-// fixedExpenses.Add(1000.00);
-// fixedExpenses.Add(35.00);
-// Console.WriteLine("House refurbishments = £" + fixedExpenses[3]);
-// Console.WriteLine("Internet = £" + fixedExpenses[4]);
-
-
-
-    
+   
